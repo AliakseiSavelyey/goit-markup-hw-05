@@ -317,6 +317,9 @@ h3 {
 /* Примеры работ */
 .work-list {
   display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .work-list .item-work:not(:last-child) {
   margin-right: 30px;
